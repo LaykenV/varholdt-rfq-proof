@@ -1,0 +1,37 @@
+{
+  "version": "synthetic-prices-v1",
+  "currency": "AED",
+  "approved": true,
+  "prices": [
+    {
+      "code": "SYN-A1",
+      "unit": "EA",
+      "unit_price": "12.50"
+    },
+    {
+      "code": "SYN-B2",
+      "unit": "EA",
+      "unit_price": "0.005"
+    },
+    {
+      "code": "SYN-D4",
+      "unit": "EA",
+      "unit_price": "1.25"
+    },
+    {
+      "code": "SYN-E5",
+      "unit": "EA",
+      "unit_price": "1.30"
+    },
+    {
+      "code": "SYN-F6",
+      "unit": "EA",
+      "unit_price": "4.00"
+    },
+    {
+      "code": "SYN-A1",
+      "unit": "EA",
+      "unit_price": "99.00"
+    }
+  ]
+}

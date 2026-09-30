@@ -1,0 +1,49 @@
+{
+  "synthetic": true,
+  "currency": "AED",
+  "rounding": "ROUND_HALF_UP per line to two decimal places; sum rounded lines",
+  "baseline": {
+    "rows": 2,
+    "priced_rows": 2,
+    "line_totals": {
+      "1": "25.00",
+      "2": "0.02"
+    },
+    "total": "25.02"
+  },
+  "unseen": {
+    "rows": 8,
+    "priced_row_numbers": [
+      1,
+      8
+    ],
+    "line_totals": {
+      "1": "15.00",
+      "8": "8.00"
+    },
+    "total": "23.00",
+    "unpriced_reasons": {
+      "2": "unknown code",
+      "3": "description-only requires review",
+      "4": "unit mismatch",
+      "5": "missing approved price",
+      "6": "description conflicts with code",
+      "7": "ambiguous description"
+    }
+  },
+  "multipage": {
+    "rows": 3,
+    "total": "37.52"
+  },
+  "changed_price_baseline": {
+    "total": "26.02",
+    "price_version": "synthetic-prices-v2"
+  },
+  "not_demonstrated": [
+    "real vendor PDF compatibility",
+    "OCR",
+    "AI matching accuracy",
+    "customer savings",
+    "production quote approval"
+  ]
+}

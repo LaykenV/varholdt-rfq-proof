@@ -1,0 +1,61 @@
+%PDF-1.4
+% SYNTHETIC TEST FIXTURE
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 535 >>
+stream
+BT
+/F1 9 Tf
+12 TL
+36 752 Td
+(SYNTHETIC RFQ V1) Tj
+T*
+(ITEMS: 8) Tj
+T*
+(ROW | CODE | DESCRIPTION | QTY | UNIT) Tj
+T*
+(1 | SYN-A1 | SYNTHETIC steel bracket | 1.2 | EA) Tj
+T*
+(2 | SYN-UNKNOWN | SYNTHETIC unknown item | 2 | EA) Tj
+T*
+(3 |  | SYNTHETIC cable clip | 1 | EA) Tj
+T*
+(4 | SYN-A1 | SYNTHETIC steel bracket | 2 | M) Tj
+T*
+(5 | SYN-C3 | SYNTHETIC gasket | 2 | EA) Tj
+T*
+(6 | SYN-A1 | SYNTHETIC conflicting widget | 1 | EA) Tj
+T*
+(7 |  | SYNTHETIC generic bolt | 3 | EA) Tj
+T*
+(8 | SYN-F6 | =1+1 | 2 | EA) Tj
+T*
+(END RFQ) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000034 00000 n 
+0000000083 00000 n 
+0000000140 00000 n 
+0000000210 00000 n 
+0000000336 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+921
+%%EOF

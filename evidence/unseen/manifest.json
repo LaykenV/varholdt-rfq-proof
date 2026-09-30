@@ -1,0 +1,15 @@
+{
+  "run_id": "n8n-proof",
+  "status": "succeeded",
+  "draft_only": true,
+  "synthetic": true,
+  "files": {
+    "approved-prices.json": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+    "catalogue.json": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898",
+    "input.pdf": "d4011d4522eef5982c2b57efa6fc1f917bb8a6ee1454249883b80131ada31c9a",
+    "quote.xlsx": "4f1957f5f94e42c375cc6682ceae37ec656e7818f17e523848013c1f8b746cba",
+    "result.json": "382b019eb2c046420e3d948539e444ca03e15082c028755a4323a6465f3eef99"
+  },
+  "price_version": "synthetic-prices-v1",
+  "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e"
+}

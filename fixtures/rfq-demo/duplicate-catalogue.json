@@ -1,0 +1,40 @@
+{
+  "version": "synthetic-catalogue-v1",
+  "items": [
+    {
+      "code": "SYN-A1",
+      "description": "SYNTHETIC steel bracket",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-B2",
+      "description": "SYNTHETIC cable clip",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-C3",
+      "description": "SYNTHETIC gasket",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-D4",
+      "description": "SYNTHETIC generic bolt",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-E5",
+      "description": "SYNTHETIC generic bolt",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-F6",
+      "description": "=1+1",
+      "unit": "EA"
+    },
+    {
+      "code": "SYN-A1",
+      "description": "SYNTHETIC steel bracket",
+      "unit": "EA"
+    }
+  ]
+}

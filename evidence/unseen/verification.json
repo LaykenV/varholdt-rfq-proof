@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "synthetic": true,
+  "verified_at": "2026-09-29T23:19:26.063674+00:00",
+  "source_sha256": {
+    "src/rfq_quote.py": "deaece12ce5f530e6f802ee22750da4624b43162ff791c61f623bcede625fa36",
+    "scripts/verify_rfq_n8n.py": "476be3e5783b86f0c57e4a2f6028b3187f770e0aff0b1e9c31632aff30a67cbe",
+    "requirements-rfq.txt": "862ec06a5db5c38079b4cc1ff3f4be8ba3bf3c5dc66c99144b5f7cf700f971de"
+  },
+  "n8n_version": "2.41.3",
+  "pdf_sha256": "d4011d4522eef5982c2b57efa6fc1f917bb8a6ee1454249883b80131ada31c9a",
+  "workbook_sha256": "4f1957f5f94e42c375cc6682ceae37ec656e7818f17e523848013c1f8b746cba",
+  "workbook_bytes": 10793,
+  "request_sequence": [
+    "GET /input.pdf",
+    "POST /quote"
+  ],
+  "executed_nodes": [
+    "Manual start",
+    "Read synthetic PDF",
+    "Create draft Excel"
+  ],
+  "n8n_returned_workbook_sha256": "4f1957f5f94e42c375cc6682ceae37ec656e7818f17e523848013c1f8b746cba"
+}

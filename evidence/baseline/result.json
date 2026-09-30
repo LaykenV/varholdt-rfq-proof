@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "draft_only": true,
+  "run_id": "n8n-proof",
+  "currency": "AED",
+  "items": [
+    {
+      "row_id": "1",
+      "code": "SYN-A1",
+      "description": "SYNTHETIC steel bracket",
+      "quantity": "2",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 4,
+      "raw": "1 | SYN-A1 | SYNTHETIC steel bracket | 2 | EA",
+      "parse_issue": null,
+      "status": "EXACT_CODE_DRAFT",
+      "review_reasons": [],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": "12.50",
+      "line_total": "25.00",
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "2",
+      "code": "SYN-B2",
+      "description": "SYNTHETIC cable clip",
+      "quantity": "3",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 5,
+      "raw": "2 | SYN-B2 | SYNTHETIC cable clip | 3 | EA",
+      "parse_issue": null,
+      "status": "EXACT_CODE_DRAFT",
+      "review_reasons": [],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": "0.005",
+      "line_total": "0.02",
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    }
+  ],
+  "input_rows": 2,
+  "exact_rows": 2,
+  "review_rows": 0,
+  "priced_subtotal": "25.02",
+  "pdf_sha256": "2a856dd9a20c00df5eedc232a9ef429ec9c4b22c44a155534754d57dca0150aa",
+  "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898",
+  "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+  "price_version": "synthetic-prices-v1",
+  "catalogue_version": "synthetic-catalogue-v1",
+  "extracted_text_audit": [
+    {
+      "page": 1,
+      "text_line": 1,
+      "raw": "SYNTHETIC RFQ V1",
+      "kind": "layout_header"
+    },
+    {
+      "page": 1,
+      "text_line": 2,
+      "raw": "ITEMS: 2",
+      "kind": "declared_count"
+    },
+    {
+      "page": 1,
+      "text_line": 3,
+      "raw": "ROW | CODE | DESCRIPTION | QTY | UNIT",
+      "kind": "table_header"
+    },
+    {
+      "page": 1,
+      "text_line": 4,
+      "raw": "1 | SYN-A1 | SYNTHETIC steel bracket | 2 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 5,
+      "raw": "2 | SYN-B2 | SYNTHETIC cable clip | 3 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 6,
+      "raw": "END RFQ",
+      "kind": "footer"
+    }
+  ]
+}

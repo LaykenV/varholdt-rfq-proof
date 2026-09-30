@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "draft_only": true,
+  "run_id": "n8n-proof",
+  "currency": "AED",
+  "items": [
+    {
+      "row_id": "1",
+      "code": "SYN-A1",
+      "description": "SYNTHETIC steel bracket",
+      "quantity": "1.2",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 4,
+      "raw": "1 | SYN-A1 | SYNTHETIC steel bracket | 1.2 | EA",
+      "parse_issue": null,
+      "status": "EXACT_CODE_DRAFT",
+      "review_reasons": [],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": "12.50",
+      "line_total": "15.00",
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "2",
+      "code": "SYN-UNKNOWN",
+      "description": "SYNTHETIC unknown item",
+      "quantity": "2",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 5,
+      "raw": "2 | SYN-UNKNOWN | SYNTHETIC unknown item | 2 | EA",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "unknown_or_similar_code_requires_review"
+      ],
+      "suggested_codes": [
+        "SYN-C3",
+        "SYN-D4",
+        "SYN-E5"
+      ],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "3",
+      "code": "",
+      "description": "SYNTHETIC cable clip",
+      "quantity": "1",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 6,
+      "raw": "3 |  | SYNTHETIC cable clip | 1 | EA",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "description_only_requires_review"
+      ],
+      "suggested_codes": [
+        "SYN-B2",
+        "SYN-C3",
+        "SYN-D4"
+      ],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "4",
+      "code": "SYN-A1",
+      "description": "SYNTHETIC steel bracket",
+      "quantity": "2",
+      "unit": "M",
+      "page": 1,
+      "text_line": 7,
+      "raw": "4 | SYN-A1 | SYNTHETIC steel bracket | 2 | M",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "unit_differs_from_catalogue",
+        "unit_differs_from_approved_price"
+      ],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "5",
+      "code": "SYN-C3",
+      "description": "SYNTHETIC gasket",
+      "quantity": "2",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 8,
+      "raw": "5 | SYN-C3 | SYNTHETIC gasket | 2 | EA",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "missing_approved_price"
+      ],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "6",
+      "code": "SYN-A1",
+      "description": "SYNTHETIC conflicting widget",
+      "quantity": "1",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 9,
+      "raw": "6 | SYN-A1 | SYNTHETIC conflicting widget | 1 | EA",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "description_conflicts_with_exact_code"
+      ],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "7",
+      "code": "",
+      "description": "SYNTHETIC generic bolt",
+      "quantity": "3",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 10,
+      "raw": "7 |  | SYNTHETIC generic bolt | 3 | EA",
+      "parse_issue": null,
+      "status": "REVIEW",
+      "review_reasons": [
+        "description_only_requires_review"
+      ],
+      "suggested_codes": [
+        "SYN-D4",
+        "SYN-E5",
+        "SYN-C3"
+      ],
+      "currency": "AED",
+      "unit_price": null,
+      "line_total": null,
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    },
+    {
+      "row_id": "8",
+      "code": "SYN-F6",
+      "description": "=1+1",
+      "quantity": "2",
+      "unit": "EA",
+      "page": 1,
+      "text_line": 11,
+      "raw": "8 | SYN-F6 | =1+1 | 2 | EA",
+      "parse_issue": null,
+      "status": "EXACT_CODE_DRAFT",
+      "review_reasons": [],
+      "suggested_codes": [],
+      "currency": "AED",
+      "unit_price": "4.00",
+      "line_total": "8.00",
+      "price_version": "synthetic-prices-v1",
+      "catalogue_version": "synthetic-catalogue-v1",
+      "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+      "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898"
+    }
+  ],
+  "input_rows": 8,
+  "exact_rows": 2,
+  "review_rows": 6,
+  "priced_subtotal": "23.00",
+  "pdf_sha256": "d4011d4522eef5982c2b57efa6fc1f917bb8a6ee1454249883b80131ada31c9a",
+  "catalogue_sha256": "7920acdf457e1432262da03812881c8bc1c51fd8df571765543c7dc4c1d1b898",
+  "price_sha256": "1f22e17889e630d94e4a9d2ecf777cd29d6ecb817787f78c373b48d8f8a44b0e",
+  "price_version": "synthetic-prices-v1",
+  "catalogue_version": "synthetic-catalogue-v1",
+  "extracted_text_audit": [
+    {
+      "page": 1,
+      "text_line": 1,
+      "raw": "SYNTHETIC RFQ V1",
+      "kind": "layout_header"
+    },
+    {
+      "page": 1,
+      "text_line": 2,
+      "raw": "ITEMS: 8",
+      "kind": "declared_count"
+    },
+    {
+      "page": 1,
+      "text_line": 3,
+      "raw": "ROW | CODE | DESCRIPTION | QTY | UNIT",
+      "kind": "table_header"
+    },
+    {
+      "page": 1,
+      "text_line": 4,
+      "raw": "1 | SYN-A1 | SYNTHETIC steel bracket | 1.2 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 5,
+      "raw": "2 | SYN-UNKNOWN | SYNTHETIC unknown item | 2 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 6,
+      "raw": "3 |  | SYNTHETIC cable clip | 1 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 7,
+      "raw": "4 | SYN-A1 | SYNTHETIC steel bracket | 2 | M",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 8,
+      "raw": "5 | SYN-C3 | SYNTHETIC gasket | 2 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 9,
+      "raw": "6 | SYN-A1 | SYNTHETIC conflicting widget | 1 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 10,
+      "raw": "7 |  | SYNTHETIC generic bolt | 3 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 11,
+      "raw": "8 | SYN-F6 | =1+1 | 2 | EA",
+      "kind": "item"
+    },
+    {
+      "page": 1,
+      "text_line": 12,
+      "raw": "END RFQ",
+      "kind": "footer"
+    }
+  ]
+}
